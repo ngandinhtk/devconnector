@@ -1,0 +1,9 @@
+{
+    "mongoURL" : "mongodb+srv://ngandinh123:ngandinh123@cluster0.yjhabri.mongodb.net/?retryWrites=true&w=majority",
+
+    "jwtSecret" : "myToken",
+
+    "githubClientId":"5ea62e78832283ba7bb3",
+    
+    "githubSecret" : "7695df6349922ab7bf682ff8685802edf61f9eca"
+}
