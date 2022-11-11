@@ -6,7 +6,9 @@
   "scripts": {
     "test": "Ngan",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "concurrently \"npm run server \" \"npm run client\" ",
+    "client": "npm start --prefix client"
+    
   },
   "author": "Ngan",
   "license": "MIT",
